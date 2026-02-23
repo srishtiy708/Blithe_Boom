@@ -20,7 +20,7 @@ const Mentors = () => {
                 <div className="grid">
                     {mentorsList.map((mentor, index) => (
                         <div key={index} className="card glass reveal" style={{ textAlign: 'center' }}>
-                            <div style={{ width: '80px', height: '80px', background: mentor.color, borderRadius: '50%', margin: '0 auto 1.5rem', display: 'flex', alignItems: 'center', justifySpaceAround: 'center', justifyContent: 'center' }}>
+                            <div style={{ width: '80px', height: '80px', background: mentor.color, borderRadius: '50%', margin: '0 auto 1.5rem', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                                 <i className={`fas ${mentor.role.includes('Dean') ? 'fa-user-graduate' : 'fa-user-tie'}`} style={{ fontSize: '2rem', color: 'white' }}></i>
                             </div>
                             <h3>{mentor.name}</h3>
