@@ -1,3 +1,5 @@
+import logo from '../assets/logo.jpeg';
+
 const Footer = () => {
     return (
         <footer>
@@ -5,7 +7,7 @@ const Footer = () => {
                 <div className="footer-grid">
                     <div>
                         <div className="logo-wrapper" style={{ marginBottom: '1.5rem' }}>
-                            <img src="/images/logo.jpeg" alt="Logo" />
+                            <img src={logo} alt="Logo" />
                             <span className="logo-text gradient-text">Blithe Boom</span>
                         </div>
                         <p style={{ color: 'var(--text-muted)' }}>Engineering practical digital solutions through structured innovation and academic-industry collaboration.</p>
@@ -23,7 +25,7 @@ const Footer = () => {
                         <ul style={{ listStyle: 'none', marginTop: '1rem' }}>
                             <li style={{ color: 'var(--text-muted)' }}>LMS Systems</li>
                             <li style={{ color: 'var(--text-muted)' }}>E-Health Platforms</li>
-                            <li style={{ color: 'var(--text-muted)' }}>Enterprise Web</li>
+                            <li style={{ color: 'var(--text-muted)' }>Enterprise Web</li>
                         </ul>
                     </div>
                     <div>

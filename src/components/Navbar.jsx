@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import logo from '../assets/logo.jpeg';
 
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -42,7 +43,7 @@ const Navbar = () => {
         <nav id="navbar" className={`${isScrolled ? 'scrolled' : ''} ${isMobileMenuOpen ? 'mobile-menu-active' : ''}`}>
             <div className="container nav-container">
                 <div className="logo-wrapper">
-                    <img src="/images/logo.jpeg" alt="Blithe Boom System Logo" />
+                    <img src={logo} alt="Blithe Boom System Logo" />
                     <span className="logo-text gradient-text">Blithe Boom</span>
                 </div>
 
