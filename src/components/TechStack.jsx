@@ -12,7 +12,7 @@ const TechStack = () => {
     ];
 
     return (
-        <section className="section-padding" style={{ background: 'rgba(255, 255, 255, 0.02)' }}>
+        <section className="section-padding" style={{ background: 'rgba(14, 165, 233, 0.03)' }}>
             <div className="container">
                 <div className="section-title reveal">
                     <h2>Technology <span className="gradient-text">Stack</span></h2>

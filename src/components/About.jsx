@@ -31,7 +31,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="glass reveal" style={{ padding: '3rem', textAlign: 'center', background: 'radial-gradient(circle at center, rgba(112, 0, 255, 0.1), transparent)' }}>
+                    <div className="glass reveal" style={{ padding: '3rem', textAlign: 'center', background: 'radial-gradient(circle at center, rgba(14, 165, 233, 0.1), transparent)' }}>
                         <i className="fas fa-microchip" style={{ fontSize: '5rem', color: 'var(--primary)', marginBottom: '2rem' }}></i>
                         <h3>Technological Excellence</h3>
                         <p style={{ color: 'var(--text-muted)' }}>Guided by structured academic-industry collaboration.</p>

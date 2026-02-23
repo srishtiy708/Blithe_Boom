@@ -26,13 +26,13 @@ const Contact = () => {
                     <div className="glass reveal" style={{ padding: '3rem' }}>
                         <form onSubmit={handleSubmit}>
                             <div style={{ marginBottom: '1.5rem' }}>
-                                <input type="text" placeholder="Your Name" required style={{ width: '100%', padding: '1rem', background: 'rgba(255,255,255,0.05)', border: '1px solid var(--glass-border)', borderRadius: '8px', color: 'white' }} />
+                                <input type="text" placeholder="Your Name" required style={{ width: '100%', padding: '1rem', background: 'white', border: '1px solid var(--glass-border)', borderRadius: '8px', color: 'var(--text-main)' }} />
                             </div>
                             <div style={{ marginBottom: '1.5rem' }}>
-                                <input type="email" placeholder="Your Email" required style={{ width: '100%', padding: '1rem', background: 'rgba(255,255,255,0.05)', border: '1px solid var(--glass-border)', borderRadius: '8px', color: 'white' }} />
+                                <input type="email" placeholder="Your Email" required style={{ width: '100%', padding: '1rem', background: 'white', border: '1px solid var(--glass-border)', borderRadius: '8px', color: 'var(--text-main)' }} />
                             </div>
                             <div style={{ marginBottom: '2rem' }}>
-                                <textarea placeholder="Message" rows="5" required style={{ width: '100%', padding: '1rem', background: 'rgba(255,255,255,0.05)', border: '1px solid var(--glass-border)', borderRadius: '8px', color: 'white', resize: 'none' }}></textarea>
+                                <textarea placeholder="Message" rows="5" required style={{ width: '100%', padding: '1rem', background: 'white', border: '1px solid var(--glass-border)', borderRadius: '8px', color: 'var(--text-main)', resize: 'none' }}></textarea>
                             </div>
                             <button type="submit" className="btn btn-primary" style={{ width: '100%' }}>Send Inquiry</button>
                         </form>

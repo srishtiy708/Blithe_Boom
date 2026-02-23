@@ -4,7 +4,7 @@ const InternshipModel = () => {
     useReveal();
 
     return (
-        <section className="section-padding" style={{ background: 'linear-gradient(to bottom, transparent, rgba(0, 210, 255, 0.05))' }}>
+        <section className="section-padding" style={{ background: 'linear-gradient(to bottom, transparent, rgba(14, 165, 233, 0.05))' }}>
             <div className="container">
                 <div className="section-title reveal">
                     <h2>Structured <span className="gradient-text">Internship</span> Model</h2>

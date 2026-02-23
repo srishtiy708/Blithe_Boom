@@ -43,7 +43,7 @@ const Hero = () => {
             }
 
             draw() {
-                ctx.fillStyle = `rgba(0, 210, 255, ${this.opacity})`;
+                ctx.fillStyle = `rgba(14, 165, 233, ${this.opacity})`;
                 ctx.beginPath();
                 ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
                 ctx.fill();
@@ -73,7 +73,7 @@ const Hero = () => {
                     const dist = Math.sqrt(dx * dx + dy * dy);
 
                     if (dist < 100) {
-                        ctx.strokeStyle = `rgba(0, 210, 255, ${0.1 * (1 - dist / 100)})`;
+                        ctx.strokeStyle = `rgba(14, 165, 233, ${0.1 * (1 - dist / 100)})`;
                         ctx.lineWidth = 0.5;
                         ctx.beginPath();
                         ctx.moveTo(p1.x, p1.y);
