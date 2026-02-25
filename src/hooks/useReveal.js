@@ -18,7 +18,6 @@ const useReveal = () => {
 
         revealElements.forEach(el => revealObserver.observe(el));
 
-        // Cleanup
         return () => {
             revealElements.forEach(el => revealObserver.unobserve(el));
         };
